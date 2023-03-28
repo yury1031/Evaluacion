@@ -1,6 +1,6 @@
 package com.example.Evaluacion.Entidades;
 
-public class estudiantes {
+public class Estudiantes {
     private int codigo;
     private String nombre;
     private String apellido;
@@ -8,7 +8,7 @@ public class estudiantes {
     private Float[] notas = new Float[3];
 
 
-    public estudiantes(int codigo, String nombre, String apellido, String[] materia, Float[] notas){
+    public Estudiantes(int codigo, String nombre, String apellido, String[] materia, Float[] notas){
         this.codigo = codigo;
         this.nombre = nombre;
         this.apellido = apellido;
