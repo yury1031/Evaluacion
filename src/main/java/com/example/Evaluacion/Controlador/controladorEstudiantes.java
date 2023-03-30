@@ -17,4 +17,16 @@ public class controladorEstudiantes {
     public String agregar(@RequestBody Estudiantes estu){
         return servicio.agregarEstudiante(estu);
     }
+
+    @GetMapping("/actualizarNotas")
+    public String actualizar(@RequestBody Estudiantes estu) {
+        return servicio.actualizarNotas(estu);
+    }
+
+    @GetMapping("/BuscarEstudiante/{cod}")
+    public Estudiantes buscar(@PathVariable("cod") int codigo) {return servicio.buscarEstudiante(codigo);}
+
+
+
+
 }
