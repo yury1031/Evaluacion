@@ -19,14 +19,13 @@ public class controladorEstudiantes {
     }
 
     @GetMapping("/actualizarNotas")
-    public String actualizar(@RequestBody Estudiantes estu) {
+    public Float actualizar(@RequestBody Estudiantes estu) {
         return servicio.actualizarNotas(estu);
     }
 
-    @GetMapping("/BuscarEstudiante/{cod}")
-    public Estudiantes buscar(@PathVariable("cod") int codigo) {return servicio.buscarEstudiante(codigo);}
-
-
-
+    @GetMapping("/notaMayor")
+    public Float notaM(@RequestBody Estudiantes estu){
+        return servicio.notaMayor(estu);
+    }
 
 }
