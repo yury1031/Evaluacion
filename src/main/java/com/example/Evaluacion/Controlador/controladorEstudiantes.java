@@ -28,9 +28,4 @@ public class controladorEstudiantes {
         return servicio.notaMayor(estu);
     }
 
-    @GetMapping("/notaMayor")
-    public Float notaMe(@RequestBody Estudiantes estu){
-        return servicio.notaMenor(estu);
-    }
-
 }
