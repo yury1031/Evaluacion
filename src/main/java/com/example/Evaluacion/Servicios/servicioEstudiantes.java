@@ -48,19 +48,29 @@ public class servicioEstudiantes {
     }
 
 
-    public String notaMayor (Estudiantes estu){
+    public Float notaMayor (Estudiantes estu){
         String respuesta = "";
-        for (Estudiantes mas:lista){
-            if (Arrays.stream(estu.getNotas()).max(estu.setNotas(mas))) {
-                respuesta = "La nota mayor esta";
-            }else {
-                respuesta = "";
+        Float notaMaxima = estu.getNotas()[0];
+        for (int i = 1; i < estu.getNotas().length; i ++) {
+            if (estu.getNotas()[i] > notaMaxima) {
+                notaMaxima = estu.getNotas()[i];
+                respuesta = "Se encontró la nota mayor";
             }
         }
-        return respuesta;
+        return Float.valueOf(respuesta);
     }
 
 
-
+    public Float notaMenor (Estudiantes estu){
+        String respuesta = "";
+        Float notaBaja = estu.getNotas()[0];
+        for (int i = 1; i > estu.getNotas().length; i ++) {
+            if (estu.getNotas()[i] > notaBaja) {
+                notaBaja = estu.getNotas()[i];
+                respuesta = "Se encontró la nota más bajita";
+            }
+        }
+        return Float.valueOf(respuesta);
+    }
 
 }

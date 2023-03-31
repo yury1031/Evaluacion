@@ -50,4 +50,5 @@ public class Estudiantes {
     public void setNotas(Float[] notas){
         this.notas = notas;
     }
+
 }
