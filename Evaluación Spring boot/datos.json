@@ -1,0 +1,122 @@
+[
+    {
+        "codigo": 10,
+        "nombre": "Juana",
+        "apellido": "Ramirez",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            2.5,
+            3.9,
+            4.2
+        ]
+    },
+    {
+        "codigo": 11,
+        "nombre": "Juan",
+        "apellido": "Ramirez",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            4.2,
+            3.5,
+            4.5
+        ]
+    },
+    {
+        "codigo": 12,
+        "nombre": "Maria",
+        "apellido": "Cristobal",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            4.4,
+            3.5,
+            4.5
+        ]
+    },
+    {
+        "codigo": 13,
+        "nombre": "Esteban",
+        "apellido": "Diaz",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            4.9,
+            3.5,
+            4.5
+        ]
+    },
+    {
+        "codigo": 14,
+        "nombre": "Camilo",
+        "apellido": "Cifuentes",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            3.3,
+            3.5,
+            4.5
+        ]
+    },
+    {
+        "codigo": 15,
+        "nombre": "David",
+        "apellido": "Gutierrez",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            2.9,
+            3.5,
+            4.5
+        ]
+    },
+    {
+        "codigo": 16,
+        "nombre": "Ignacia",
+        "apellido": "Caldas",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            4.1,
+            3.5,
+            4.5
+        ]
+    },
+    {
+        "codigo": 17,
+        "nombre": "Alexandra",
+        "apellido": "Merchan",
+        "materia": [
+            "Quimica",
+            "Matematicas",
+            "Inglés"
+        ],
+        "notas": [
+            3.5,
+            3.5,
+            4.5
+        ]
+    }
+]
